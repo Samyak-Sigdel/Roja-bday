@@ -191,12 +191,12 @@ document.addEventListener('DOMContentLoaded', function() {
             
             isCandleLit = false;
             
-            // if (!giftAutoOpenedOnce) {
-            //     giftAutoOpenedOnce = true;
-            //     setTimeout(() => {
-            //         openGiftModal();
-            //     }, 900);
-            // }
+            if (!giftAutoOpenedOnce) {
+                giftAutoOpenedOnce = true;
+                setTimeout(() => {
+                    openGiftModal();
+                }, 900);
+            }
             
             this.style.transform = 'scale(0.95)';
             setTimeout(() => {
