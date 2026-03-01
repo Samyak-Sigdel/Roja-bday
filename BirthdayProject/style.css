@@ -405,26 +405,7 @@ body {
     transform: scale(0.98);
 }
 
-/* Gift button */
-.gift-btn {
-    background: linear-gradient(45deg, #FF1493, #FF69B4);
-    color: white;
-    border: none;
-    padding: 18px 38px;
-    border-radius: 60px;
-    font-size: 20px;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    margin: 0 auto 20px;
-    font-weight: 800;
-    box-shadow: 0 15px 35px rgba(255, 105, 180, 0.25);
-    transition: all 0.25s ease;
-    border: 3px solid rgba(255, 255, 255, 0.35);
-}
-.gift-btn:hover { transform: translateY(-4px) scale(1.03); }
-.gift-btn:active { transform: scale(0.98); }
+
 
 /* Confetti */
 .confetti {
